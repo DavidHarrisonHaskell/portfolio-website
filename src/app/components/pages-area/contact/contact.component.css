@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('/assets/images/contact.jpeg');
+    background-image: url('../../../../assets/images/contact.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
