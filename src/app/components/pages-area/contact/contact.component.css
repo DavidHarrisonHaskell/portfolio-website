@@ -1,0 +1,93 @@
+.contact-container {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/images/contact.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%; /* Changed from 100vh to 100% */
+    width: 100%;
+    gap: 15px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 5px 0; /* Add padding to prevent content from touching edges */
+    overflow: hidden; /* Prevent any possible overflow */
+    box-sizing: border-box;
+}
+
+.contact-container h1 {
+    color: #00d8ff; /* Light blue for a tech feel */
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 
+        -3px -3px 0 black,  
+         3px -3px 0 black,  
+        -3px  3px 0 black,  
+         3px  3px 0 black;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #333;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.contact-item:hover {
+    background: #444;
+    transform: scale(1.05);
+}
+
+.contact-item .icon {
+    font-size: 1.5rem;
+    color: #00d8ff;
+}
+
+.contact-item a {
+    color: #00d8ff; /* Light blue for a modern feel */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.contact-item a:hover {
+    color: #66e0ff;
+}
+
+.contact-container h1 {
+    color: white; /* Text color */
+    font-size: 3rem; /* Adjust as needed */
+    text-align: center;
+    
+    /* Thick black outline */
+    text-shadow: 
+        -3px -3px 0 black,  
+         3px -3px 0 black,  
+        -3px  3px 0 black,  
+         3px  3px 0 black;
+}
+
+.linkedin-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0077b5; /* LinkedIn Blue */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.linkedin-btn:hover {
+    background-color: #005582;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+

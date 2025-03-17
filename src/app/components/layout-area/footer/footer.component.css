@@ -1,0 +1,12 @@
+div {
+    height: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+

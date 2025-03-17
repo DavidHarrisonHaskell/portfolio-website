@@ -1,0 +1,15 @@
+div {
+    height: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 15% 75% 10%;
+}
+
+div,
+div>* {
+    border: 1px solid black;
+}
+
+main {
+    overflow: auto;
+}

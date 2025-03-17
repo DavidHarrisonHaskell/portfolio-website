@@ -1,0 +1,40 @@
+.home-container {
+    background-image: url('/assets/images/home.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/images/contact.jpeg');
+    height: 100%; /* Changed from 100vh to 100% */
+    width: 100%;
+    gap: 20px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Add padding to prevent content from touching edges */
+    overflow: hidden; /* Prevent any possible overflow */
+    
+    /* Make sure text is visible */
+    color: white; /* Change as needed */
+    text-align: center; /* Centers text */
+    
+    display: flex; 
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+
+.home-container h1 {
+    color: white; /* Text color */
+    font-size: 60px; /* Adjust as needed */
+    text-align: center;
+    
+    /* Thick black outline */
+    text-shadow: 
+        -3px -3px 0 black,  
+         3px -3px 0 black,  
+        -3px  3px 0 black,  
+         3px  3px 0 black;
+}
