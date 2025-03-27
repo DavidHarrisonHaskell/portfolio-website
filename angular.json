@@ -39,14 +39,14 @@
                     "builder": "@angular/build-angular:browser",
                     "options": {
                         "outputPath": "docs",
-                        "baseHref": "/PortfolioWebsite/"
+                        "baseHref": "/portfolio-website/"
                     }
                 },
                 "build": {
                     "builder": "@angular-devkit/build-angular:application",
                     "options": {
                         "outputPath": "docs",
-                        "baseHref": "/PortfolioWebsite/",
+                        "baseHref": "/portfolio-website/",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
                         "polyfills": [
