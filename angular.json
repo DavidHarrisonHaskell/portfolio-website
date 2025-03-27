@@ -36,9 +36,10 @@
             "prefix": "app",
             "architect": {
                 "deploy": {
-                    "builder": "@angular/build-angular:browser",
+                    "builder": "@angular-devkit/build-angular:deploy",
                     "options": {
                         "outputPath": "docs",
+                        "buildTarget":"PortfolioWebsite:build:production",
                         "baseHref": "/portfolio-website/"
                     }
                 },
@@ -55,7 +56,8 @@
                         "tsConfig": "tsconfig.app.json",
                         "assets": [
                             "src/favicon.ico",
-                            "src/assets"
+                            "src/assets",
+                            "src/.nojekyll"
                         ],
                         "styles": [
                             "src/styles.css"
